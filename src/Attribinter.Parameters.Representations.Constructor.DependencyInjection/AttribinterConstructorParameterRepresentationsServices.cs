@@ -1,4 +1,4 @@
-namespace Attribinter.Parameters.Representations;
+﻿namespace Attribinter.Parameters.Representations;
 
 using Microsoft.Extensions.DependencyInjection;
 

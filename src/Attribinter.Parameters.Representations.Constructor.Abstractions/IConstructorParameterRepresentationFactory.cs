@@ -1,4 +1,4 @@
-namespace Attribinter.Parameters.Representations;
+﻿namespace Attribinter.Parameters.Representations;
 
 /// <summary>Handles creation of <see cref="IConstructorParameterRepresentation"/>.</summary>
 public interface IConstructorParameterRepresentationFactory
