@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+
+        <RootNamespace>Attribinter.Parameters.Representations</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Attribinter.Tests.Common" />
+
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+
+        <PackageReference Include="Moq" />
+
+        <PackageReference Include="xunit" />
+        <PackageReference Include="xunit.runner.visualstudio" />
+
+        <ProjectReference Include="..\..\..\src\Attribinter.Parameters.Representations.Constructor.Abstractions\Attribinter.Parameters.Representations.Constructor.Abstractions.csproj" />
+        <ProjectReference Include="..\..\..\src\Attribinter.Parameters.Representations.Constructor.Core\Attribinter.Parameters.Representations.Constructor.Core.csproj" />
+        <ProjectReference Include="..\..\..\src\Attribinter.Parameters.Representations.Constructor\Attribinter.Parameters.Representations.Constructor.csproj" />
+    </ItemGroup>
+
+</Project>
