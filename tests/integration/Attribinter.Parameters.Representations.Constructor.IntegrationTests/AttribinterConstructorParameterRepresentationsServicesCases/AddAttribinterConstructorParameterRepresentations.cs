@@ -1,4 +1,4 @@
-﻿namespace Attribinter.Parameters.Representations.AttribinterMapperCollectorsServicesCases;
+﻿namespace Attribinter.Parameters.Representations.AttribinterConstructorParameterRepresentationsServicesCases;
 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
