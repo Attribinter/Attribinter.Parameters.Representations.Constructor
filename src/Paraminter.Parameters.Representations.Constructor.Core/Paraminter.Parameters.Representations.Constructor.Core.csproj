@@ -6,7 +6,7 @@
         <RootNamespace>Paraminter.Parameters.Representations</RootNamespace>
 
         <Title>Paraminter.Parameters.Representations.Constructor.Core</Title>
-        <Description>Provides representations of Paraminter constructor parameters.</Description>
+        <Description>Defines Paraminter constructor parameter representations.</Description>
     </PropertyGroup>
 
 </Project>
