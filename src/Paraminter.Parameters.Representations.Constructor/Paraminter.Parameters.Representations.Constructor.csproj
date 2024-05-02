@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <RootNamespace>Paraminter.Parameters.Representations</RootNamespace>
+
+        <Title>Paraminter.Parameters.Representations.Constructor</Title>
+        <Description>Provides components related to Paraminter constructor parameter representations.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Parameters.Constructor.Core" />
+
+        <ProjectReference Include="..\Paraminter.Parameters.Representations.Constructor.Abstractions\Paraminter.Parameters.Representations.Constructor.Abstractions.csproj" />
+        <ProjectReference Include="..\Paraminter.Parameters.Representations.Constructor.Core\Paraminter.Parameters.Representations.Constructor.Core.csproj" />
+    </ItemGroup>
+
+</Project>
