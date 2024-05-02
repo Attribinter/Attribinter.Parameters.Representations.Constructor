@@ -21,4 +21,8 @@
         <ProjectReference Include="..\..\..\src\Paraminter.Parameters.Representations.Constructor\Paraminter.Parameters.Representations.Constructor.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="LoweringConstructorParameterRepresentationFactoryCases\" />
+    </ItemGroup>
+
 </Project>

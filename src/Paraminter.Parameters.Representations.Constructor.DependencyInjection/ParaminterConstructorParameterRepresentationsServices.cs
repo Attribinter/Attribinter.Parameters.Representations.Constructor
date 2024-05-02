@@ -20,6 +20,8 @@ public static class ParaminterConstructorParameterRepresentationsServices
         services.AddTransient<IConstructorParameterRepresentationEqualityComparerFactory, ConstructorParameterRepresentationEqualityComparerFactory>();
         services.AddTransient<IConstructorParameterRepresentationFactory, ConstructorParameterRepresentationFactory>();
 
+        services.AddTransient<IParameterRepresentationFactory<IConstructorParameter, IConstructorParameterRepresentation>, LoweringConstructorParameterRepresentationFactory>();
+
         return services;
     }
 }

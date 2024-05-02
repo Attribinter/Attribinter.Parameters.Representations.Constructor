@@ -35,6 +35,9 @@ public sealed class AddParaminterConstructorParameterRepresentations
     [Fact]
     public void IConstructorParameterRepresentationFactory_ServiceCanBeResolved() => ServiceCanBeResolved<IConstructorParameterRepresentationFactory>();
 
+    [Fact]
+    public void IParameterRepresentationFactory_ServiceCanBeResolved() => ServiceCanBeResolved<IParameterRepresentationFactory<IConstructorParameter, IConstructorParameterRepresentation>>();
+
     private static IServiceCollection Target(IServiceCollection services) => ParaminterConstructorParameterRepresentationsServices.AddParaminterConstructorParameterRepresentations(services);
 
     [AssertionMethod]
