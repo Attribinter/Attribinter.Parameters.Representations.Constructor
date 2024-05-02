@@ -13,6 +13,7 @@
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
 
         <ProjectReference Include="..\Paraminter.Parameters.Representations.Constructor.Abstractions\Paraminter.Parameters.Representations.Constructor.Abstractions.csproj" />
+        <ProjectReference Include="..\Paraminter.Parameters.Representations.Constructor.Core\Paraminter.Parameters.Representations.Constructor.Core.csproj" />
         <ProjectReference Include="..\Paraminter.Parameters.Representations.Constructor\Paraminter.Parameters.Representations.Constructor.csproj" />
     </ItemGroup>
 
