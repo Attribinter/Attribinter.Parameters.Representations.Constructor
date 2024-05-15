@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <RootNamespace>Paraminter.Parameters.Representations</RootNamespace>
+
+        <Title>Paraminter.Parameters.Representations.Normal</Title>
+        <Description>Provides components related to Paraminter normal parameter representations.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Parameters.Normal.Core" />
+
+        <ProjectReference Include="..\Paraminter.Parameters.Representations.Normal.Abstractions\Paraminter.Parameters.Representations.Normal.Abstractions.csproj" />
+        <ProjectReference Include="..\Paraminter.Parameters.Representations.Normal.Core\Paraminter.Parameters.Representations.Normal.Core.csproj" />
+    </ItemGroup>
+
+</Project>
