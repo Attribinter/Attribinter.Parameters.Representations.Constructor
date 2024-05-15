@@ -1,5 +1,5 @@
-# Paraminter.Parameters.Representations.Constructor
+# Paraminter.Parameters.Representations.Normal
 
-Adds representations of constructor parameters to `Paraminter`.
+Adds representations of normal parameters to `Paraminter`.
 
 See [Paraminter](https://www.github.com/Paraminter/Paraminter) for more information.
