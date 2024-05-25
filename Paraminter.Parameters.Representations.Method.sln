@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{075BB1EB-5CB0-47EA-BE2E-BB02C848B406}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		tests\.editorconfig = tests\.editorconfig
+		Directory.Build.props = Directory.Build.props
+		src\Directory.Build.props = src\Directory.Build.props
+		tests\Directory.Build.props = tests\Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method.Core", "src\Paraminter.Parameters.Representations.Method.Core\Paraminter.Parameters.Representations.Method.Core.csproj", "{2D97EAB5-1892-42C9-A7F8-192C91CC08A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method.Abstractions", "src\Paraminter.Parameters.Representations.Method.Abstractions\Paraminter.Parameters.Representations.Method.Abstractions.csproj", "{9F40A1D3-FE54-4305-A684-D8B6394E9192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method", "src\Paraminter.Parameters.Representations.Method\Paraminter.Parameters.Representations.Method.csproj", "{9C9BF881-6AE2-4D58-BDC9-A0C445A22A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method.DependencyInjection", "src\Paraminter.Parameters.Representations.Method.DependencyInjection\Paraminter.Parameters.Representations.Method.DependencyInjection.csproj", "{3256E267-78F4-47EA-9A32-9CBA71CEE9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method.IntegrationTests", "tests\integration\Paraminter.Parameters.Representations.Method.IntegrationTests\Paraminter.Parameters.Representations.Method.IntegrationTests.csproj", "{789C1868-6B0E-4D55-A4CA-04F54A941E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Parameters.Representations.Method.UnitTests", "tests\unit\Paraminter.Parameters.Representations.Normal.UnitTests\Paraminter.Parameters.Representations.Method.UnitTests.csproj", "{6938927C-BA5C-47E4-BF5F-B0AEC8C020D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D97EAB5-1892-42C9-A7F8-192C91CC08A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D97EAB5-1892-42C9-A7F8-192C91CC08A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D97EAB5-1892-42C9-A7F8-192C91CC08A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D97EAB5-1892-42C9-A7F8-192C91CC08A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F40A1D3-FE54-4305-A684-D8B6394E9192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F40A1D3-FE54-4305-A684-D8B6394E9192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F40A1D3-FE54-4305-A684-D8B6394E9192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F40A1D3-FE54-4305-A684-D8B6394E9192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9BF881-6AE2-4D58-BDC9-A0C445A22A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9BF881-6AE2-4D58-BDC9-A0C445A22A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9BF881-6AE2-4D58-BDC9-A0C445A22A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9BF881-6AE2-4D58-BDC9-A0C445A22A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3256E267-78F4-47EA-9A32-9CBA71CEE9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3256E267-78F4-47EA-9A32-9CBA71CEE9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3256E267-78F4-47EA-9A32-9CBA71CEE9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3256E267-78F4-47EA-9A32-9CBA71CEE9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789C1868-6B0E-4D55-A4CA-04F54A941E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789C1868-6B0E-4D55-A4CA-04F54A941E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789C1868-6B0E-4D55-A4CA-04F54A941E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789C1868-6B0E-4D55-A4CA-04F54A941E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6938927C-BA5C-47E4-BF5F-B0AEC8C020D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6938927C-BA5C-47E4-BF5F-B0AEC8C020D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6938927C-BA5C-47E4-BF5F-B0AEC8C020D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6938927C-BA5C-47E4-BF5F-B0AEC8C020D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D1923E9-874A-4DB1-9C69-62012F0898FD}
+	EndGlobalSection
+EndGlobal
