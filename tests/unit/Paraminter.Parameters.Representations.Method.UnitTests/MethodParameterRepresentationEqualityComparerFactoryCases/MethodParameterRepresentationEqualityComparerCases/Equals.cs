@@ -8,8 +8,6 @@ using Xunit;
 
 public sealed class Equals
 {
-    private bool Target(IMethodParameterRepresentation x, IMethodParameterRepresentation y) => Fixture.Sut.Equals(x, y);
-
     private readonly IComparerFixture Fixture = ComparerFixtureFactory.Create();
 
     [Fact]
@@ -52,4 +50,6 @@ public sealed class Equals
 
         Assert.Equal(returnValue, result);
     }
+
+    private bool Target(IMethodParameterRepresentation x, IMethodParameterRepresentation y) => Fixture.Sut.Equals(x, y);
 }
