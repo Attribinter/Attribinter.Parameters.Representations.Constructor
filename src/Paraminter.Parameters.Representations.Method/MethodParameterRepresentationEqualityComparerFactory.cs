@@ -4,12 +4,14 @@ using System;
 using System.Collections.Generic;
 
 /// <inheritdoc cref="IMethodParameterRepresentationEqualityComparerFactory"/>
-public sealed class MethodParameterRepresentationEqualityComparerFactory : IMethodParameterRepresentationEqualityComparerFactory
+public sealed class MethodParameterRepresentationEqualityComparerFactory
+    : IMethodParameterRepresentationEqualityComparerFactory
 {
     /// <summary>Instantiates a <see cref="MethodParameterRepresentationEqualityComparerFactory"/>, handling creation of comparers of <see cref="IMethodParameterRepresentation"/>.</summary>
     public MethodParameterRepresentationEqualityComparerFactory() { }
 
-    IEqualityComparer<IMethodParameterRepresentation> IMethodParameterRepresentationEqualityComparerFactory.Create(IEqualityComparer<string> nameComparer)
+    IEqualityComparer<IMethodParameterRepresentation> IMethodParameterRepresentationEqualityComparerFactory.Create(
+        IEqualityComparer<string> nameComparer)
     {
         if (nameComparer is null)
         {
@@ -19,16 +21,20 @@ public sealed class MethodParameterRepresentationEqualityComparerFactory : IMeth
         return new MethodParameterRepresentationEqualityComparer(nameComparer);
     }
 
-    private sealed class MethodParameterRepresentationEqualityComparer : IEqualityComparer<IMethodParameterRepresentation>
+    private sealed class MethodParameterRepresentationEqualityComparer
+        : IEqualityComparer<IMethodParameterRepresentation>
     {
         private readonly IEqualityComparer<string> NameComparer;
 
-        public MethodParameterRepresentationEqualityComparer(IEqualityComparer<string> nameComparer)
+        public MethodParameterRepresentationEqualityComparer(
+            IEqualityComparer<string> nameComparer)
         {
             NameComparer = nameComparer;
         }
 
-        bool IEqualityComparer<IMethodParameterRepresentation>.Equals(IMethodParameterRepresentation x, IMethodParameterRepresentation y)
+        bool IEqualityComparer<IMethodParameterRepresentation>.Equals(
+            IMethodParameterRepresentation x,
+            IMethodParameterRepresentation y)
         {
             if (x is null)
             {
@@ -43,7 +49,8 @@ public sealed class MethodParameterRepresentationEqualityComparerFactory : IMeth
             return NameComparer.Equals(x.Name, y.Name);
         }
 
-        int IEqualityComparer<IMethodParameterRepresentation>.GetHashCode(IMethodParameterRepresentation obj)
+        int IEqualityComparer<IMethodParameterRepresentation>.GetHashCode(
+            IMethodParameterRepresentation obj)
         {
             if (obj is null)
             {

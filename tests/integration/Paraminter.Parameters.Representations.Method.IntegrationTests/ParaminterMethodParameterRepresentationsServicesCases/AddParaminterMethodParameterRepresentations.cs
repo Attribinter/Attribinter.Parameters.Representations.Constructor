@@ -16,7 +16,11 @@ public sealed class AddParaminterMethodParameterRepresentations
     [Fact]
     public void IParameterRepresentationFactory_ServiceCanBeResolved() => ServiceCanBeResolved<IParameterRepresentationFactory<IMethodParameter, IMethodParameterRepresentation>>();
 
-    private static void Target(IServiceCollection services) => ParaminterMethodParameterRepresentationsServices.AddParaminterMethodParameterRepresentations(services);
+    private static void Target(
+        IServiceCollection services)
+    {
+        ParaminterMethodParameterRepresentationsServices.AddParaminterMethodParameterRepresentations(services);
+    }
 
     [AssertionMethod]
     private static void ServiceCanBeResolved<TService>()

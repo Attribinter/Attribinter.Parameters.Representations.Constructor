@@ -24,5 +24,9 @@ public sealed class Create
         Assert.NotNull(result);
     }
 
-    private IMethodParameterRepresentation Target(string name) => Fixture.Sut.Create(name);
+    private IMethodParameterRepresentation Target(
+        string name)
+    {
+        return Fixture.Sut.Create(name);
+    }
 }

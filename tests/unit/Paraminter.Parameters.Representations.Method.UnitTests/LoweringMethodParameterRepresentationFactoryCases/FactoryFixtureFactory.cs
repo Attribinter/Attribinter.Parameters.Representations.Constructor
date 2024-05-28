@@ -13,13 +13,16 @@ internal static class FactoryFixtureFactory
         return new FactoryFixture(sut, innerFactoryMock);
     }
 
-    private sealed class FactoryFixture : IFactoryFixture
+    private sealed class FactoryFixture
+        : IFactoryFixture
     {
         private readonly IParameterRepresentationFactory<IMethodParameter, IMethodParameterRepresentation> Sut;
 
         private readonly Mock<IMethodParameterRepresentationFactory> InnerFactoryMock;
 
-        public FactoryFixture(IParameterRepresentationFactory<IMethodParameter, IMethodParameterRepresentation> sut, Mock<IMethodParameterRepresentationFactory> innerFactoryMock)
+        public FactoryFixture(
+            IParameterRepresentationFactory<IMethodParameter, IMethodParameterRepresentation> sut,
+            Mock<IMethodParameterRepresentationFactory> innerFactoryMock)
         {
             Sut = sut;
 
