@@ -16,5 +16,9 @@ public sealed class Name
         Assert.Equal(expected, result);
     }
 
-    private static string Target(IRepresentationFixture fixture) => fixture.Sut.Name;
+    private static string Target(
+        IRepresentationFixture fixture)
+    {
+        return fixture.Sut.Name;
+    }
 }

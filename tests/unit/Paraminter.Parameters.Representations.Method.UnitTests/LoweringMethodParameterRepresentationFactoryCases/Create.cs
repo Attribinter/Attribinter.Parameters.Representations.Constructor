@@ -36,5 +36,9 @@ public sealed class Create
         Assert.Same(representation, result);
     }
 
-    private IMethodParameterRepresentation Target(IMethodParameter parameter) => Fixture.Sut.Create(parameter);
+    private IMethodParameterRepresentation Target(
+        IMethodParameter parameter)
+    {
+        return Fixture.Sut.Create(parameter);
+    }
 }

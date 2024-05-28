@@ -3,12 +3,14 @@
 using System;
 
 /// <inheritdoc cref="IMethodParameterRepresentationFactory"/>
-public sealed class MethodParameterRepresentationFactory : IMethodParameterRepresentationFactory
+public sealed class MethodParameterRepresentationFactory
+    : IMethodParameterRepresentationFactory
 {
     /// <summary>Instantiates a <see cref="MethodParameterRepresentationFactory"/>, handling creation of <see cref="IMethodParameterRepresentation"/>.</summary>
     public MethodParameterRepresentationFactory() { }
 
-    IMethodParameterRepresentation IMethodParameterRepresentationFactory.Create(string name)
+    IMethodParameterRepresentation IMethodParameterRepresentationFactory.Create(
+        string name)
     {
         if (name is null)
         {
@@ -18,11 +20,13 @@ public sealed class MethodParameterRepresentationFactory : IMethodParameterRepre
         return new MethodParameterRepresentation(name);
     }
 
-    private sealed class MethodParameterRepresentation : IMethodParameterRepresentation
+    private sealed class MethodParameterRepresentation
+        : IMethodParameterRepresentation
     {
         private readonly string Name;
 
-        public MethodParameterRepresentation(string name)
+        public MethodParameterRepresentation(
+            string name)
         {
             Name = name;
         }
