@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Paraminter.Parameters.Representations.Method.Core</PackageId>
+        <Description>Defines Paraminter method parameter representations.</Description>
+    </PropertyGroup>
+
+</Project>
