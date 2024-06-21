@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Paraminter.Parameters.Representations.Method.Abstractions</PackageId>
+        <Description>Provides abstractions related to Paraminter method parameter representations.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Parameters.Representations.Abstractions" />
+
+        <ProjectReference Include="..\Core\Core.csproj" />
+    </ItemGroup>
+
+</Project>
