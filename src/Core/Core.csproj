@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <AssemblyName>Paraminter.Parameters.Representations.Method.Core</AssemblyName>
+
         <PackageId>Paraminter.Parameters.Representations.Method.Core</PackageId>
         <Description>Defines the core components of Paraminter method parameter representations.</Description>
     </PropertyGroup>
