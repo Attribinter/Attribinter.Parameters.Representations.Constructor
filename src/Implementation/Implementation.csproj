@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Paraminter.Parameters.Representations.Method</PackageId>
-        <Description>Provides components related to Paraminter method parameter representations.</Description>
+        <Description>Provides general implementations of services related to Paraminter method parameter representations.</Description>
     </PropertyGroup>
 
     <ItemGroup>

@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Paraminter.Parameters.Representations.Method.Abstractions</PackageId>
-        <Description>Provides abstractions related to Paraminter method parameter representations.</Description>
+        <Description>Provides abstractions of services related to Paraminter method parameter representations.</Description>
     </PropertyGroup>
 
     <ItemGroup>

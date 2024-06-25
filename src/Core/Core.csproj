@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Paraminter.Parameters.Representations.Method.Core</PackageId>
-        <Description>Defines Paraminter method parameter representations.</Description>
+        <Description>Defines the core components of Paraminter method parameter representations.</Description>
     </PropertyGroup>
 
 </Project>
