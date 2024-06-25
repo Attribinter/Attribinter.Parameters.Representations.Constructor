@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <AssemblyName>Paraminter.Parameters.Representations.Method.Abstractions</AssemblyName>
+
         <PackageId>Paraminter.Parameters.Representations.Method.Abstractions</PackageId>
         <Description>Provides abstractions related to Paraminter method parameter representations.</Description>
     </PropertyGroup>
